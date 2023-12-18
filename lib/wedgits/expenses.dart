@@ -13,7 +13,7 @@ class Expenses extends StatefulWidget {
 
 class _ExpensesState extends State<Expenses> {
   final List<Expense> _registeredExpenses = [ 
-    Expense(amount: 10.11, data:DateTime.now(), title:'dasdd' , category: Category.food)
+    
   ];
 
   void _openAddExpenseOverlay() {
